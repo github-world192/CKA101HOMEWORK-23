@@ -1,4 +1,4 @@
-package homework;
+package hw1;
 //256559秒幾天幾小時幾分幾秒
 public class hw3 {
     public static void main(String[] args) {
