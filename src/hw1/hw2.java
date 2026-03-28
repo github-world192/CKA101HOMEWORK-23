@@ -1,4 +1,4 @@
-package homework;
+package hw1;
 //一打12個 200 顆蛋幾打幾顆
 public class hw2 {
     public static void main(String[] args) {

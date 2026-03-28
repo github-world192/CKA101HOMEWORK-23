@@ -1,21 +1,13 @@
-package hw1;
-//256559秒幾天幾小時幾分幾秒
+package hw2;
+//請設計一隻Java程式,計算1~10的連乘積 (1*2*3*...*10) (用while迴圈)
 public class hw3 {
     public static void main(String[] args) {
-        int totalSeconds = 256559;
-        int secondsInDay = 24 * 60 * 60;
-        int secondsInHour = 60 * 60;
-        int secondsInMinute = 60;
-
-        int days = totalSeconds / secondsInDay;
-        int remainingSecondsAfterDays = totalSeconds % secondsInDay;
-
-        int hours = remainingSecondsAfterDays / secondsInHour;
-        int remainingSecondsAfterHours = remainingSecondsAfterDays % secondsInHour;
-
-        int minutes = remainingSecondsAfterHours / secondsInMinute;
-        int seconds = remainingSecondsAfterHours % secondsInMinute;
-
-        System.out.println(totalSeconds + "秒等於" + days + "天" + hours + "小時" + minutes + "分" + seconds + "秒");
+        int product = 1;
+        int i = 1;
+        while (i <= 10) {
+            product *= i;
+            i++;
+        }
+        System.out.println("1~10的連乘積為: " + product);
     }
 }
