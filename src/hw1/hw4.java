@@ -1,4 +1,4 @@
-package homework;
+package hw1;
 //pi = 3.1415 計算半徑為5的圓面積及周長
 public class hw4 {
     public static void main(String[] args) {
