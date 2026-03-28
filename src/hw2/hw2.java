@@ -1,11 +1,11 @@
-package homework;
-//一打12個 200 顆蛋幾打幾顆
+package hw2;
+//請設計一隻Java程式,計算1~10的連乘積 (1*2*3*...*10) (用for迴圈)
 public class hw2 {
     public static void main(String[] args) {
-        int egg = 200;
-        int dozen = egg / 12;
-        int leftEgg = egg % 12;
-        System.out.println("蛋的打數為" + dozen);
-        System.out.println("剩餘的蛋數為" + leftEgg);
+        int product = 1;
+        for (int i = 1; i <= 10; i++) {
+            product *= i;
+        }
+        System.out.println("1~10的連乘積為: " + product);
     }
 }

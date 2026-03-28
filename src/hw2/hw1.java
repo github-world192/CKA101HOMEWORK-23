@@ -1,10 +1,11 @@
-package homework;
+package hw2;
+//• 請設計一隻Java程式,計算1~1000的偶數和 (2+4+6+8+...+1000)
 public class hw1 {
 	public static void main(String[] args) {
-		int a = 12;
-		int b = 6;
-		int sum = a + b;
-		System.out.println("數字和為" + sum);
-		System.out.println("數字積為" + (a * b));
+		int sum = 0;
+		for (int i = 2; i <= 1000; i += 2) {
+			sum += i;
+		}
+		System.out.println("1~1000的偶數和為: " + sum);
 	}
 }
